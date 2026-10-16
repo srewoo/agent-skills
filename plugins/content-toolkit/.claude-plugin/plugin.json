@@ -1,0 +1,18 @@
+{
+  "name": "content-toolkit",
+  "version": "1.0.0",
+  "description": "Removing AI-sounding prose, matching a brand voice, and repurposing content across channels.",
+  "author": {
+    "name": "Sharaj Rewoo",
+    "url": "https://github.com/srewoo"
+  },
+  "homepage": "https://github.com/srewoo/agent-skills",
+  "repository": "https://github.com/srewoo/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "content",
+    "brand-voice",
+    "social-media"
+  ]
+}

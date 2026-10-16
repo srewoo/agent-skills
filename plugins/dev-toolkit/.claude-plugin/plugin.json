@@ -1,0 +1,19 @@
+{
+  "name": "dev-toolkit",
+  "version": "1.0.0",
+  "description": "Major-version upgrades, splitting large PRs, and safely deleting dead code.",
+  "author": {
+    "name": "Sharaj Rewoo",
+    "url": "https://github.com/srewoo"
+  },
+  "homepage": "https://github.com/srewoo/agent-skills",
+  "repository": "https://github.com/srewoo/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "upgrade",
+    "migration",
+    "pull-request",
+    "refactor",
+    "dead-code"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "hr-toolkit",
+  "version": "1.0.0",
+  "description": "Inclusive JDs, structured interviews, fair resume screening, policies, onboarding, and feedback.",
+  "author": {
+    "name": "Sharaj Rewoo",
+    "url": "https://github.com/srewoo"
+  },
+  "homepage": "https://github.com/srewoo/agent-skills",
+  "repository": "https://github.com/srewoo/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "hr",
+    "hiring",
+    "recruiting",
+    "onboarding",
+    "feedback"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "HR Toolkit",
+    "shortDescription": "Inclusive JDs, structured interviews, fair resume screening, policies, onboarding, and feedback.",
+    "developerName": "Sharaj Rewoo",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $feedback-rewriter",
+      "Use $interview-kit",
+      "Use $jd-writer"
+    ]
+  }
+}

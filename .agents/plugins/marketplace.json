@@ -1,0 +1,80 @@
+{
+  "name": "agent-skills",
+  "interface": {
+    "displayName": "Agent Skills"
+  },
+  "plugins": [
+    {
+      "name": "dev-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dev-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "qa-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/qa-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "ai-eng-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ai-eng-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "seo-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/seo-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "hr-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hr-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "content-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/content-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

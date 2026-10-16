@@ -1,0 +1,34 @@
+{
+  "name": "seo-toolkit",
+  "version": "1.0.0",
+  "description": "Technical SEO audits, keyword clustering, and competitor content-gap analysis.",
+  "author": {
+    "name": "Sharaj Rewoo",
+    "url": "https://github.com/srewoo"
+  },
+  "homepage": "https://github.com/srewoo/agent-skills",
+  "repository": "https://github.com/srewoo/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "keywords",
+    "content-strategy",
+    "audit"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SEO Toolkit",
+    "shortDescription": "Technical SEO audits, keyword clustering, and competitor content-gap analysis.",
+    "developerName": "Sharaj Rewoo",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $content-gap",
+      "Use $keyword-cluster",
+      "Use $technical-seo-audit"
+    ]
+  }
+}

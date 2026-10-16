@@ -1,0 +1,19 @@
+{
+  "name": "ai-eng-toolkit",
+  "version": "1.0.0",
+  "description": "Evals, prompt regression testing, RAG debugging, and LLM cost reduction.",
+  "author": {
+    "name": "Sharaj Rewoo",
+    "url": "https://github.com/srewoo"
+  },
+  "homepage": "https://github.com/srewoo/agent-skills",
+  "repository": "https://github.com/srewoo/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "llm",
+    "evals",
+    "rag",
+    "prompts",
+    "cost"
+  ]
+}

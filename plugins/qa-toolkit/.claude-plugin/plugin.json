@@ -1,0 +1,19 @@
+{
+  "name": "qa-toolkit",
+  "version": "1.0.0",
+  "description": "Hunting flaky tests, turning bug reports into failing tests, and finding untested changes.",
+  "author": {
+    "name": "Sharaj Rewoo",
+    "url": "https://github.com/srewoo"
+  },
+  "homepage": "https://github.com/srewoo/agent-skills",
+  "repository": "https://github.com/srewoo/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "flaky-tests",
+    "qa",
+    "coverage",
+    "bug-repro"
+  ]
+}

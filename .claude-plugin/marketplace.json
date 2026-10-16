@@ -1,0 +1,89 @@
+{
+  "name": "agent-skills",
+  "owner": {
+    "name": "Sharaj Rewoo",
+    "url": "https://github.com/srewoo"
+  },
+  "metadata": {
+    "description": "Portable agent skills for developers, QA, AI engineers, SEO, HR and content teams.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dev-toolkit",
+      "source": "./plugins/dev-toolkit",
+      "description": "Major-version upgrades, splitting large PRs, and safely deleting dead code.",
+      "version": "1.0.0",
+      "keywords": [
+        "upgrade",
+        "migration",
+        "pull-request",
+        "refactor",
+        "dead-code"
+      ]
+    },
+    {
+      "name": "qa-toolkit",
+      "source": "./plugins/qa-toolkit",
+      "description": "Hunting flaky tests, turning bug reports into failing tests, and finding untested changes.",
+      "version": "1.0.0",
+      "keywords": [
+        "testing",
+        "flaky-tests",
+        "qa",
+        "coverage",
+        "bug-repro"
+      ]
+    },
+    {
+      "name": "ai-eng-toolkit",
+      "source": "./plugins/ai-eng-toolkit",
+      "description": "Evals, prompt regression testing, RAG debugging, and LLM cost reduction.",
+      "version": "1.0.0",
+      "keywords": [
+        "llm",
+        "evals",
+        "rag",
+        "prompts",
+        "cost"
+      ]
+    },
+    {
+      "name": "seo-toolkit",
+      "source": "./plugins/seo-toolkit",
+      "description": "Technical SEO audits, keyword clustering, and competitor content-gap analysis.",
+      "version": "1.0.0",
+      "keywords": [
+        "seo",
+        "keywords",
+        "content-strategy",
+        "audit"
+      ]
+    },
+    {
+      "name": "hr-toolkit",
+      "source": "./plugins/hr-toolkit",
+      "description": "Inclusive JDs, structured interviews, fair resume screening, policies, onboarding, and feedback.",
+      "version": "1.0.0",
+      "keywords": [
+        "hr",
+        "hiring",
+        "recruiting",
+        "onboarding",
+        "feedback"
+      ]
+    },
+    {
+      "name": "content-toolkit",
+      "source": "./plugins/content-toolkit",
+      "description": "Removing AI-sounding prose, matching a brand voice, and repurposing content across channels.",
+      "version": "1.0.0",
+      "keywords": [
+        "writing",
+        "content",
+        "brand-voice",
+        "social-media"
+      ]
+    }
+  ]
+}
