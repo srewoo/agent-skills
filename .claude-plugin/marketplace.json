@@ -5,7 +5,7 @@
     "url": "https://github.com/srewoo"
   },
   "metadata": {
-    "description": "Portable agent skills for developers, QA, AI engineers, SEO, HR and content teams.",
+    "description": "Portable agent skills for developers, QA, AI engineers, SEO, HR, content and support teams.",
     "version": "1.0.0"
   },
   "plugins": [
@@ -83,6 +83,18 @@
         "content",
         "brand-voice",
         "social-media"
+      ]
+    },
+    {
+      "name": "support-toolkit",
+      "source": "./plugins/support-toolkit",
+      "description": "Triaging helpdesk tickets and drafting replies, merges and escalations for a human to send.",
+      "version": "1.0.0",
+      "keywords": [
+        "support",
+        "helpdesk",
+        "triage",
+        "customer-success"
       ]
     }
   ]

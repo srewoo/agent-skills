@@ -31,6 +31,9 @@ TOOLKITS = {
     "content-toolkit": ("Content Toolkit", "Productivity",
                         "Removing AI-sounding prose, matching a brand voice, and repurposing content across channels.",
                         ["writing", "content", "brand-voice", "social-media"]),
+    "support-toolkit": ("Support Toolkit", "Productivity",
+                        "Triaging helpdesk tickets and drafting replies, merges and escalations for a human to send.",
+                        ["support", "helpdesk", "triage", "customer-success"]),
 }
 
 
@@ -73,7 +76,7 @@ def main() -> None:
 
     write(ROOT / ".claude-plugin" / "marketplace.json", {
         "name": MARKETPLACE, "owner": OWNER,
-        "metadata": {"description": "Portable agent skills for developers, QA, AI engineers, SEO, HR and content teams.",
+        "metadata": {"description": "Portable agent skills for developers, QA, AI engineers, SEO, HR, content and support teams.",
                      "version": VERSION},
         "plugins": claude_entries,
     })

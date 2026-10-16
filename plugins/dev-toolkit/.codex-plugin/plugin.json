@@ -29,7 +29,7 @@
     "defaultPrompt": [
       "Use $dead-code-reaper",
       "Use $dependency-upgrader",
-      "Use $pr-splitter"
+      "Use $devloop"
     ]
   }
 }

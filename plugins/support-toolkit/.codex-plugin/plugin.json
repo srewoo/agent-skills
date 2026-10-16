@@ -1,0 +1,32 @@
+{
+  "name": "support-toolkit",
+  "version": "1.0.0",
+  "description": "Triaging helpdesk tickets and drafting replies, merges and escalations for a human to send.",
+  "author": {
+    "name": "Sharaj Rewoo",
+    "url": "https://github.com/srewoo"
+  },
+  "homepage": "https://github.com/srewoo/agent-skills",
+  "repository": "https://github.com/srewoo/agent-skills",
+  "license": "MIT",
+  "keywords": [
+    "support",
+    "helpdesk",
+    "triage",
+    "customer-success"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Support Toolkit",
+    "shortDescription": "Triaging helpdesk tickets and drafting replies, merges and escalations for a human to send.",
+    "developerName": "Sharaj Rewoo",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $triage-support-ticket"
+    ]
+  }
+}

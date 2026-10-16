@@ -1,6 +1,6 @@
 # Agent Skills
 
-22 skills for developers, QA, AI engineers, SEO, HR and content teams. Each skill is a plain `SKILL.md` file, so it runs in **Claude Code, OpenAI Codex, Cursor and Google Antigravity**. The HR and content skills also work in a plain chat window.
+24 skills for developers, QA, AI engineers, SEO, HR, content and support teams. Each skill is a plain `SKILL.md` file, so it runs in **Claude Code, OpenAI Codex, Cursor and Google Antigravity**. The HR, content and support skills also work in a plain chat window.
 
 Each skill was written to a [shared contract](CONTRIBUTING.md), then scored and fixed by a separate reviewer against a [rubric](scripts/review-rubric.md). A skill ships only at **8/10 or higher**. Bundled scripts use only the Python standard library and come with tests.
 
@@ -44,6 +44,7 @@ git clone https://github.com/srewoo/agent-skills && cd agent-skills
 | [dependency-upgrader](plugins/dev-toolkit/skills/dependency-upgrader/SKILL.md) | You're moving one dependency, framework or runtime across a major version (React 19, Spring Boot 3, Java 21, Python 3.12 …) |
 | [pr-splitter](plugins/dev-toolkit/skills/pr-splitter/SKILL.md) | A branch is too big to review and needs to become a stack of small, green PRs |
 | [dead-code-reaper](plugins/dev-toolkit/skills/dead-code-reaper/SKILL.md) | You want unused exports, files, dependencies or stale feature flags found and safely removed |
+| [devloop](plugins/dev-toolkit/skills/devloop/SKILL.md) | A ticket from any tracker (or pasted) needs to become a tested local diff, with design decisions settled and an independent review. It stops before commit |
 
 ### qa-toolkit
 | Skill | Use it when |
@@ -83,6 +84,11 @@ git clone https://github.com/srewoo/agent-skills && cd agent-skills
 | [de-slop](plugins/content-toolkit/skills/de-slop/SKILL.md) | A draft sounds like AI. It removes the tells without changing the facts |
 | [brand-voice](plugins/content-toolkit/skills/brand-voice/SKILL.md) | You want a voice guide built from samples, and drafts rewritten to match it |
 | [repurposer](plugins/content-toolkit/skills/repurposer/SKILL.md) | One long piece needs turning into LinkedIn, X, newsletter, video and carousel content |
+
+### support-toolkit
+| Skill | Use it when |
+|---|---|
+| [triage-support-ticket](plugins/support-toolkit/skills/triage-support-ticket/SKILL.md) | A helpdesk ticket needs triage and a drafted reply, forward, merge or engineering escalation for a human to send. Works with any helpdesk or pasted text |
 
 ## Limits
 
