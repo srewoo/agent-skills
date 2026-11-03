@@ -1,6 +1,6 @@
 # Agent Skills
 
-24 skills for developers, QA, AI engineers, SEO, HR, content and support teams. Each skill is a plain `SKILL.md` file, so it runs in **Claude Code, OpenAI Codex, Cursor and Google Antigravity**. The HR, content and support skills also work in a plain chat window.
+25 skills for developers, QA, AI engineers, SEO, HR, content and support teams. Each skill is a plain `SKILL.md` file, so it runs in **Claude Code, OpenAI Codex, Cursor and Google Antigravity**. The HR, content and support skills also work in a plain chat window.
 
 Each skill was written to a [shared contract](CONTRIBUTING.md), then scored and fixed by a separate reviewer against a [rubric](scripts/review-rubric.md). A skill ships only at **8/10 or higher**. Bundled scripts use only the Python standard library and come with tests.
 
@@ -52,6 +52,7 @@ git clone https://github.com/srewoo/agent-skills && cd agent-skills
 | [flaky-test-hunter](plugins/qa-toolkit/skills/flaky-test-hunter/SKILL.md) | A test passes and fails intermittently. It finds the cause and removes the non-determinism, with no sleeps or retries |
 | [bug-report-to-repro](plugins/qa-toolkit/skills/bug-report-to-repro/SKILL.md) | A vague bug report needs exact repro steps and a failing test |
 | [test-gap-finder](plugins/qa-toolkit/skills/test-gap-finder/SKILL.md) | You want to know which changed behaviour in a PR has no test |
+| [ticket-to-test-cases](plugins/qa-toolkit/skills/ticket-to-test-cases/SKILL.md) | A ticket or story needs test cases. Every test is checked against a crawl of the real app, de-duplicated, and mapped to the acceptance criteria it covers |
 
 ### ai-eng-toolkit
 | Skill | Use it when |

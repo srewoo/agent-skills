@@ -1,7 +1,7 @@
 {
   "name": "qa-toolkit",
   "version": "1.0.0",
-  "description": "Hunting flaky tests, turning bug reports into failing tests, and finding untested changes.",
+  "description": "Grounded test cases from tickets, hunting flaky tests, turning bug reports into failing tests, and finding untested changes.",
   "author": {
     "name": "Sharaj Rewoo",
     "url": "https://github.com/srewoo"
@@ -14,6 +14,7 @@
     "flaky-tests",
     "qa",
     "coverage",
-    "bug-repro"
+    "bug-repro",
+    "test-cases"
   ]
 }

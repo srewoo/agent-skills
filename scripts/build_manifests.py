@@ -17,8 +17,9 @@ TOOLKITS = {
                     "Major-version upgrades, splitting large PRs, and safely deleting dead code.",
                     ["upgrade", "migration", "pull-request", "refactor", "dead-code"]),
     "qa-toolkit": ("QA Toolkit", "Coding",
-                   "Hunting flaky tests, turning bug reports into failing tests, and finding untested changes.",
-                   ["testing", "flaky-tests", "qa", "coverage", "bug-repro"]),
+                   "Grounded test cases from tickets, hunting flaky tests, turning bug reports into failing tests, "
+                   "and finding untested changes.",
+                   ["testing", "flaky-tests", "qa", "coverage", "bug-repro", "test-cases"]),
     "ai-eng-toolkit": ("AI Engineering Toolkit", "Coding",
                        "Evals, prompt regression testing, RAG debugging, and LLM cost reduction.",
                        ["llm", "evals", "rag", "prompts", "cost"]),
